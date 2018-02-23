@@ -1,0 +1,160 @@
+<html>
+<head>
+<style>
+#main{background-color:#4D913A;width:60%;float:right;}
+#main li{background-color:#4D913A;border:2px solid green;float:left;display:inline;padding:10px;width:100px;}
+#main li:hover{background-color:#2E829C;}
+#main li:hover > ul{display:block;}
+#main ul {clear:both;background-color:#red;display:none;position:absolute;width:100px}
+#main ul li{background-color:#red;border:2px solid green;float:left;display:inline;padding:10px;width:100px;}
+#main ul li:hover{background-color:#2E829C;margin-left:-10px;margin-top:10px;width:100px;}
+
+
+
+#game1{background-color:red;width:80px;height:80px;position:absolute;border:2px solid red;border-radius:50px;
+background:radial-gradient(blue 10%,red 30%,green 20%,yellow 20%,orange 10%);
+-moz-animation:gitansh1 6s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh1{
+0%{background:red;top:00px;left:1000px;width:50px;}
+20%{background:green;top:200px;left:1080px;width:50px;}
+40%{background:blue;top:400px;left:500px;width:80px;}
+60%{background:yellow;top:80px;left:150px;width:60px;}
+80%{background:orange;top:200px;left:720px;width:50px;}
+100%{background:red;top:390px;left:600px;width:50px;}}
+#game{background-color:red;width:100px;height:100px;position:absolute;border:2px solid red;border-radius:50px;
+background:radial-gradient(blue 10%,red 30%,green 20%,yellow 20%,orange 10%);
+-moz-animation:gitansh 8s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh{
+0%{background:red;top:0px;left:0px;width:50px;}
+20%{background:green;top:200px;left:180px;width:50px;}
+40%{background:blue;top:400px;left:500px;width:80px;}
+60%{background:yellow;top:80px;left:150px;width:60px;}
+80%{background:orange;top:200px;left:720px;width:50px;}
+100%{background-color:red;top:390px;left:600px;width:50px;}}
+#game2{background-color:red;width:100px;height:100px;position:absolute;border:2px solid red;border-radius:50px;
+background:radial-gradient(blue 10%,red 30%,green 20%,yellow 20%,orange 10%);
+-moz-animation:gitansh2 8s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh2{
+0%{background:red;top:1000px;left:0px;width:50px;}
+20%{background:green;top:100px;left:380px;width:50px;}
+40%{background:blue;top:600px;left:500px;width:80px;}
+60%{background:yellow;top:380px;left:850px;width:60px;}
+80%{background:orange;top:200px;left:120px;width:50px;}
+100%{background-color:red;top:590px;left:400px;width:50px;}}
+#game3{background-color:red;width:100px;height:100px;position:absolute;border:2px solid red;border-radius:50px;
+background:radial-gradient(blue 10%,red 30%,green 20%,yellow 20%,orange 10%);
+-moz-animation:gitansh5 6s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh5{
+0%{background:red;top:1000px;left:3000px;width:50px;}
+20%{background:green;top:700px;left:680px;width:50px;}
+40%{background:blue;top:400px;left:5000px;width:80px;}
+60%{background:yellow;top:480px;left:250px;width:60px;}
+80%{background:orange;top:200px;left:720px;width:50px;}
+100%{background-color:red;top:690px;left:1100px;width:50px;}}
+
+#work{height:500px;width:400px;}
+#wild{height:200px;width:200px;transition:5s width;margin-top:-480px;}
+#bear{height:200px;width:200px;transition:3s width;margin-top:-50px;}
+#work:hover ~ #wild{height:200px;width:600px;transform:rotate(10deg);}
+#work:hover ~ #bear{height:200px;width:600px;transform:rotate(-10deg);}
+#war{background-color:green;width:200px;height:50px;Border-radius:18px;color:white;font-size:25px;position:absolute;border:2px solid red;margin-top:-200px;margin-left:100px;
+-moz-animation:gitansh7 9s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh7
+{from{background:red;width:300px;top:360px;left:100px;}
+to{background:yellow;width:200px;top:530px;left:100px;
+}
+}
+#war1{background-color:green;width:200px;height:50px;Border-radius:18px;color:white;font-size:25px;position:absolute;border:2px solid red;margin-top:-200px;margin-left:100px;
+-moz-animation:gitansh8 10s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh8
+{from{background:red;width:300px;top:560px;left:100px;}
+to{background:blue;width:210px;top:730px;left:100px;
+}
+}
+#war2{background-color:green;width:200px;height:50px;Border-radius:18px;color:white;font-size:29px;position:absolute;border:2px solid red;margin-top:-200px;margin-left:100px;
+-moz-animation:gitansh9 10s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh9
+{from{background:red;width:300px;top:560px;left:800px;}
+to{background:green;width:210px;top:730px;left:800px;
+}
+}
+#war3{background-color:green;width:200px;height:50px;Border-radius:18px;color:white;font-size:25px;position:absolute;border:2px solid red;margin-top:-200px;margin-left:100px;
+-moz-animation:gitansh10 9s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:alternate;}
+@-moz-keyframes gitansh10
+{from{background:pink;width:300px;top:360px;left:800px;}
+to{background:orange;width:200px;top:530px;left:800px;
+}
+}
+
+</style>
+</head>
+<body>
+<div style="background-color:#2E829C"><span style="font-family:elephant;font-size:54px;color:lightGreen">D</span><span style="font-family:elephant;font-size:38px;color:lightGreen">a</span>
+<span style="font-family:elephant;font-size:38px;color:lightGreen">i</span>
+<span style="font-family:elephant;font-size:38px;color:lightGreen">l</span>
+<span style="font-family:elephant;font-size:38px;color:lightGreen">y</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">L</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">i</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">f</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">e</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">s</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">t</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">y</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">l</span>
+<span style="font-family:elephant;font-size:38px;color:lightblue">e</span>
+</div>
+<div >
+<ul id="main"><li>Home
+<ul>
+<li ><a style="text-decoration:none;color:black;"  href="quotes.html">Quotes</a></li>
+<li>Life stories</li>
+<li>Personalities</li>
+</ul></li>
+<li><a style="text-decoration:none;color:black;" href="mission1.html">Mission</a></li>
+<li>Gallery
+<ul><li><a style="text-decoration:none;color:black;" href="Photos.html">Photos </a></li>
+<li>Videos</li>
+</ul></li>
+<li><a style="text-decoration:none;color:black;" href="aboutus.html">About Us</a></li>
+<li><a style="text-decoration:none;color:black;" href="meee.html">Contact Us</a></li>
+</ul></div>
+<div id="game"></div>
+<div id="game1"></div>
+<div id="game2"></div>
+<div id="game3"></div>
+<div style="margin-left:550px;margin-top:80px;">
+<div id="work"></div>
+<div id="wild"><img src="LOGO1.png"  width="200px" height="200px"></div>
+<div id="bear"><img src="welcome.png" width="270px" height="250px"></div>
+</div>
+<div id="war"> Inspirational quotes</div>
+<div id="war1">Motivational quotes</div>
+<div id="war2">Real Stories</div>
+<div id="war3">Life changers</div>
+
+<audio  autoplay loop>
+<source src="hiphop.mp3" type="audio/mpeg">
+</audio>
+<audio  autoplay loop>
+<source src="Titanic_flute.mp3" type="audio/mpeg">
+</audio>
+
+
+</body>
+</html>
